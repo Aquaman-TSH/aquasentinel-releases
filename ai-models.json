@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy this to the RELEASE repo (Aquaman-TSH/aquasentinel-releases) as ai-models.json. The app fetches it at launch and overrides ONLY the model ids below — no base URLs or keys. When a provider deprecates a model, edit the id here and every user is fixed on next launch (no app release). Unknown keys/fields are ignored. If the file is missing or unreachable, the app uses its built-in defaults. Keep these in sync with src/services/aiProvider.js when you cut a release.",
+  "providers": {
+    "anthropic":  { "model": "claude-opus-4-8", "lightModel": "claude-sonnet-4-6" },
+    "gemini":     { "model": "gemini-2.0-flash" },
+    "opencode":   { "model": "north-mini-code-free" },
+    "groq":       { "model": "llama-3.3-70b-versatile" },
+    "openrouter": { "model": "meta-llama/llama-3.3-70b-instruct:free" },
+    "openai":     { "model": "gpt-4o", "lightModel": "gpt-4o-mini" }
+  },
+  "notice": {
+    "text": "",
+    "level": "info"
+  }
+}
