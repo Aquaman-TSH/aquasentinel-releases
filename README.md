@@ -6,7 +6,7 @@ AquaSentinel is a full-featured, Windows-based intelligent aquarium management a
 
 ## Download
 
-### [⬇ Download the latest beta — v1.6.0-beta.3.4](https://github.com/Aquaman-TSH/aquasentinel-releases/releases/tag/v1.6.0-beta.3.4)
+### [⬇ Download the latest beta HERE ](https://github.com/Aquaman-TSH/aquasentinel-releases/releases/)
 
 All **Pro features are unlocked free** during the beta period.
 
