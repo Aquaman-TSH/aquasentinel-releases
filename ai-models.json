@@ -3,9 +3,8 @@
   "providers": {
     "anthropic":  { "model": "claude-opus-4-8", "lightModel": "claude-sonnet-4-6" },
     "gemini":     { "model": "gemini-3.5-flash" },
-    "opencode":   { "model": "north-mini-code-free" },
-    "groq":       { "model": "llama-3.3-70b-versatile" },
-    "openrouter": { "model": "meta-llama/llama-3.3-70b-instruct:free" },
+    "groq":       { "model": "openai/gpt-oss-120b" },
+    "openrouter": { "model": "google/gemma-4-31b-it:free" },
     "openai":     { "model": "gpt-4o", "lightModel": "gpt-4o-mini" }
   },
   "notice": {
