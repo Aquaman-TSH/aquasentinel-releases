@@ -2,7 +2,7 @@
 
 **Intelligent aquarium management for Windows**
 
-Aquatic Sentinel is a full-featured, Windows-based aquarium management app for maintaining, tracking, and controlling multiple aquariums at once. It was designed by fishkeepers for fishkeepers, with the goal of taking much of the drudgery out of aquarium keeping while making it genuinely affordable. It automates maintenance, surfaces smarter insights, and brings AI-powered features to the hobby that previously cost fishkeepers thousands of dollars — at a fraction of that cost. Aquatic Sentinel itself requires no subscription and stores all your data locally on your own PC. Some advanced features — like smart device control and the AI assistant — connect to third-party services that have their own accounts, but the core app is yours to use freely.
+Aquatic Sentinel is a full-featured, multi-platform aquarium management app for maintaining, tracking, and controlling multiple aquariums at once. It was designed by fishkeepers for fishkeepers, with the goal of taking much of the drudgery out of aquarium keeping while making it genuinely affordable. It automates maintenance, surfaces smarter insights, and brings AI-powered features to the hobby that previously cost fishkeepers thousands of dollars — at a fraction of that cost. Aquatic Sentinel itself requires no subscription and stores all your data locally on your own PC. Some advanced features — like smart device control and the AI assistant — connect to third-party services that have their own accounts, but the core app is yours to use freely.
 
 ## Download
 
