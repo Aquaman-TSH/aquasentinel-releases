@@ -34,6 +34,8 @@ All **Pro features are unlocked free** during the beta period. The app installs 
 
 ![Automation Rules](screenshots/04-automations.png)
 
+![Ammonia early warning](screenshots/3.82.21/ammonia-risk-card.png)
+
 *More screenshots on the [latest release page](https://github.com/Aquaman-TSH/aquasentinel-releases/releases/).*
 
 ## System requirements
