@@ -10,6 +10,10 @@ Aquatic Sentinel is a full-featured, multi-platform aquarium management app for 
 
 All **Pro features are unlocked free** during the beta period. The app installs and updates itself from then on.
 
+### [📖 Read the User Manual](manual/README.md)
+
+A page-by-page guide to everything in Aquatic Sentinel, with screenshots, from installing it to automating your tank.
+
 > **Note:** Windows may show a SmartScreen warning ("Windows protected your PC") because beta builds are not yet code-signed. Click **More info** → **Run anyway**. This will be resolved before the public release.
 
 ## Highlights
