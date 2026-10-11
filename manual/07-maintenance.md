@@ -13,7 +13,7 @@ The Maintenance page keeps the chores that keep a tank healthy — water changes
 Tasks are grouped by urgency, most urgent first:
 
 - **Overdue** — past their due date (red).
-- **Due soon** — coming up in the next few days (amber).
+- **Due soon** — due today or within the next 3 days (amber).
 - **All tasks** — everything, including tasks not due yet.
 
 Each row shows the task, its tank, how often it repeats, the next due date, and three buttons: **✓ Log** (done!), **Edit**, and **✕** (delete).

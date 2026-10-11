@@ -87,9 +87,10 @@ Every tank carries a single number from 0 to 100. It is **holistic**: a tank wit
 
 | Part | Weight | What it measures |
 |---|---|---|
-| **Water parameters** | 60% | Your latest readings against the tank's safe ranges. |
+| **Water parameters** | 60% | Your latest temperature, pH, ammonia, nitrite and nitrate against the tank's safe ranges. |
 | **Maintenance** | 20% | How many tasks are overdue. |
 | **Device uptime** | 20% | How many of the tank's devices are online. |
+| **Dangerous readings** | caps the score | A reading far enough out of range to threaten the animals — ammonia or nitrite well above safe, or a temperature far off — puts a ceiling on the score however good everything else is. The worse the reading, the lower the ceiling. |
 | **Livestock** | caps the score | A tank cannot score above a ceiling if livestock is logged as sick, in quarantine or on watch, or if there has been a death in the last 14 days. |
 
 Parts with no data are skipped and the others carry the weight. Bands: **80+ Healthy** (green), **55–79 Watch** (amber), **under 55 Critical** (red).

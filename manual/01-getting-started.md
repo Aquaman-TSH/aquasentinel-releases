@@ -146,7 +146,7 @@ Press **?** anywhere (outside a text box) to see the cheat sheet.
 | **Escape** | Close a dialog or panel |
 
 > [!NOTE]
-> The Ctrl+Shift shortcuts are system-wide hotkeys, which some Linux desktops (those using *Wayland*) don't allow. Where that applies, the app hides them and shows an on-screen **Silence** button instead.
+> Three shortcuts — **Ctrl+Shift+A**, **Ctrl+Shift+S** and **Ctrl+R** — are system-wide hotkeys, which some Linux desktops (those using *Wayland*) don't allow. Where that applies, the app hides them and shows an on-screen **Silence** button instead. All the others keep working.
 
 ---
 

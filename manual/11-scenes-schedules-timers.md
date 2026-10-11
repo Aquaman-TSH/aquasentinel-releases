@@ -59,7 +59,7 @@ Press **+ Add Schedule**.
 | **Schedule name** | For example *Plant light on*. |
 | **Device** | The plug, outlet or light to control. For a power strip, choose the outlet. |
 | **Action** | **Turn ON** or **Turn OFF**. |
-| **Repeat** | **Every Day**, **Weekdays Only**, **Weekends Only**, **Specific Days** (choose any combination), or **Repeat every X minutes**. |
+| **Repeat** | **Every Day**, **Weekdays Only**, **Weekends Only**, **Specific Days** (choose any combination), or **Repeat Every X Minutes** (anywhere from 1 to 1,440 minutes). |
 | **Time** | Hour, minute and AM/PM. |
 | **Active** | Untick to keep it without running it. |
 

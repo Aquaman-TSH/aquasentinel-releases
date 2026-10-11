@@ -36,7 +36,7 @@ Entries from power strips are recorded **per outlet**, and the app notes both **
 Three menus under the title narrow the list:
 
 - **What** — everything, or only one kind: water tests, maintenance, feeding, treatment, or all events (and just System, User Actions or Alerts). The number beside each choice is how many entries it holds.
-- **When** — *All time*, or a recent period.
+- **When** — *All time*, *Last 7 days*, *Last 30 days*, *Last 90 days* or *Last year*.
 - **Order** — newest first, or oldest first.
 
 **Refresh** reloads the list.

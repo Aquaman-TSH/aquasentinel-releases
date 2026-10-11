@@ -38,7 +38,7 @@ Aquatic Sentinel is **hardware-agnostic**: it works with equipment you already o
 
 | Family | Examples | Control |
 |---|---|---|
-| **Tuya / Smart Life** | Plugs, power strips, lights, thermostats, water-quality monitors, leak sensors, sprinkler valves and water timers, and "Other" for devices the app doesn't recognise yet | Cloud and local network |
+| **Tuya / Smart Life** | Plugs, power strips, lights, thermostats, water-quality monitors (including the PH-W218 8-in-1 meter), leak sensors, sprinkler valves and water timers, and "Other" for devices the app doesn't recognise yet | Cloud and local network |
 | **Kasa / TP-Link** | Smart plugs and strips, including the newer firmware | Local network (account optional) |
 | **Magic Home / Zengge** | RGB and white LED controllers | Local network |
 | **Govee** | WiFi leak sensors (some models only report to the Govee app) | Cloud |
@@ -56,6 +56,8 @@ Aquatic Sentinel is **hardware-agnostic**: it works with equipment you already o
 |---|---|
 | **3480** (TCP, on the computer running the app) | The built-in web server — the address you open from a phone or another computer |
 | **6668** (TCP, on your local network) | Tuya devices in local mode |
+| **6666 / 6667** (UDP, local network) | Tuya devices announcing themselves, so the app can find their address |
+| **9999** (TCP/UDP) and **80** (TCP), **20002** (UDP) — local network | Kasa / TP-Link plugs: older firmware answers on 9999; newer firmware (KLAP) on port 80 |
 | **5577** (TCP/UDP, local network) | Magic Home / Zengge controllers |
 | **443** (HTTPS, outbound) | The AI provider you chose, the Tuya cloud, weather, Cloudflare Tunnel |
 

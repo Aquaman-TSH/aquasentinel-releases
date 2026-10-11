@@ -18,6 +18,7 @@ Along the top:
 |---|---|
 | **Sort** and **filter** menus | Order cards (by tank, for example) or show only one kind of device. |
 | **Cards** | Switches between full cards and a compact list. |
+| **⚡ Modular Render** | Switches between the current card design (*Modular*) and the older one (*Legacy*). Leave it on Modular; the older layout is kept only for comparison. |
 | **🔔 Alerts Monitored** | Shows that device alarms are active, and lets you snooze them for a while. |
 | **+ Add Device** | The menu of device types (next section). |
 | **⋯ More** | **Export all devices** to a JSON file, or **Import devices** from one — a quick way to move to a new computer. |
@@ -52,7 +53,8 @@ Press **+ Add Device** and choose the family:
 | **Add ESPHome** | DIY ESP32 / ESP8266 sensors. |
 | **Add HYDROS** | CoralVue Hydros controllers (preview). |
 | **Add Govee** | Govee WiFi leak sensors. |
-| **Dosing Pump ▸** | Seachem / AquaVitro Sentia doser. |
+| **Dosing Pump ▸** | Opens a short list in place; today it holds **Sentia (AquaVitro / Seachem)**. |
+| **Automatic Top Off** | Greyed out — *coming soon*. |
 | **Add Zigbee ▸** | Hands you over to the Zigbee setup in Settings. |
 | **Add Simulated** | A pretend device for trying things out safely. |
 
@@ -153,7 +155,7 @@ These effects are produced by Aquatic Sentinel itself ("software" modes), so the
 
 ## Sensors and probes
 
-Water-quality monitors, pens and probes give you readings you never have to type. Aquatic Sentinel supports Tuya water-quality monitors, the **BLE-C600** (a 7-in-1 pen: pH, TDS, EC, ORP, temperature, salinity and specific gravity), the **ZG-109TDS** Zigbee probe, ESPHome sensors and Hydros probes. A reading logs to a tank of your choosing — pick it on the card — in the background, even when the Devices page is closed, and appears in [Parameters](04-parameters.md).
+Water-quality monitors, pens and probes give you readings you never have to type. Aquatic Sentinel supports Tuya water-quality monitors (including the **PH-W218** 8-in-1 meter), the **BLE-C600** (a 7-in-1 pen: pH, TDS, EC, ORP, temperature, salinity and specific gravity), the **ZG-109TDS** Zigbee probe, ESPHome sensors and Hydros probes. A reading logs to a tank of your choosing — pick it on the card — in the background, even when the Devices page is closed, and appears in [Parameters](04-parameters.md).
 
 - **Calibrate first.** The first time a probe logs, you're prompted to calibrate so your history doesn't begin with uncalibrated readings. Each sensor can carry a **calibration reminder** (every 14 days by default), a **Mark calibrated today** button, and **Calibrating now**, which pauses fault alerts for 15 minutes while the probe sits in its buffer solution. The BLE-C600 also has per-parameter offsets you can enter.
 - **Impossible readings are held back.** Every reading passes a quality check. A value or a jump that can't be real — a temperature leaping from 78 to 153 °F — is quarantined: the last good value stays, **automations never act on the bad one**, and you're alerted only if the fault persists (about ten minutes). A reading that *could* be a real emergency alerts you immediately.
@@ -212,6 +214,9 @@ See the **reservoir level**, the **next dose** and a **14-day dose history**. In
 ![Configuring the Sentia](images/sentia-doser-configure.png)
 
 *Dose now* stays off until the doser is calibrated, and you're warned before dosing from an empty bottle. Reservoir alerts and every dose, change and alert go to the tank Journal. Set it up and configure it on the computer, or on the phone that hosts the app; over remote access you get the read-only card and the dose history. It talks to the Sentia through Seachem's cloud — there is no local connection.
+
+> [!NOTE]
+> **Known issue:** the doser's weekday schedule may land a day off. If a dose doesn't run on the day you picked, check which day it actually ran and tell us.
 
 ### Sprinkler timers and water valves
 Run a Tuya valve for a set time and watch it count down; a manual *off* always wins over a running timer. A metering valve records how much water went through, keeps a history, and writes it to the Journal — in litres, as the valve reports them.

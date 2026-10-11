@@ -63,7 +63,7 @@ Other things the form offers:
 - **Pick how far back** with **Hour · Day · Week · Month · Year · All**. Year and All are averaged to one point per day so a long history stays readable.
 - **Safe-range lines** are drawn on the chart (*Safe min* and *Safe max*), taken from your tank type's range.
 - **Zoom** by dragging the handles on the strip under the chart — it works with a finger too. **⤢ Reset zoom** appears beside the title to go back.
-- **Trend** switches on a 30-day trend projection. It only draws the forward projection when the data show a clear direction, so a noisy chart doesn't produce a misleading arrow.
+- **Trend** switches on a trend line with a short forward projection (the tooltip calls it a *30-day* projection; on shorter views like Day or Week it looks ahead by a shorter span). It only draws the forward projection when the data show a clear direction, so a noisy chart doesn't produce a misleading arrow.
 - **Compare** overlays the same parameter from several tanks on one chart.
 
 ---
